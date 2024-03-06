@@ -30,7 +30,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="./_core/_image/favicon.ico" type="image/x-icon">
-    <title>AdminBSB Documentation</title>
+    <title><?php echo $object["hive_mode"]["name"]; ?></title>
     <style>
         body {
             margin: 0;

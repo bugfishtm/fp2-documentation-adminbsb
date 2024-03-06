@@ -25,25 +25,19 @@
 	*/	
 	$x = array();
 	$x["rname"] 		= "_documentation-adminbsb";
-	$x["build"] 		= "101";
+	$x["name"] 			= "AdminBSB Documentation";
+	
+	$x["short"] 		= "This module contains the official documentation for you to get insights about integrated functions, classes templates and more! You can also find on <a href=\"https://bugfishtm.github.io\" rel='noopener' target=\"_blank\">https://bugfishtm.github.io</a>!";
+	$x["build"] 		= "100";
 	$x["version"] 		= "1.".$x["build"];
 	$x["iframe"] 		= true;
 	$x["view"] 			= true;
 	$x["singleuse"] 	= false;
-	$x["cat"] 			= "docs";
-	$x["lang"] 			= array("en");
-	$x["license"] 		= "MIT";
+	$x["cat"] 			= "documentation";
+	$x["license"] 		= "GPLv3";
 	$x["autor"] 		= "Jan-Maurice Dahlmanns";
 	$x["pseudo"] 		= "Bugfish";
 	$x["mail"] 			= "requests@bugfish.eu";
 	$x["website"] 		= "www.bugfish.eu";
-	$x["name"] 			= "AdminBSB Documentation";
-	$x["short"] 		= "Enhance your CMS experience with the AdminBSB Documentation, a comprehensive documentation companion. Seamlessly integrated into your admin interface, it provides instant access to detailed guides, tutorials, and reference materials. Streamline your workflow and empower users with essential knowledge for optimizing the potential of AdminBSB.";
-	$x["description"] 	= "Take your CMS journey to the next level with the AdminBSB Documentation, a meticulously crafted addition designed exclusively for the renowned AdminBSB admin template. Immerse yourself in an unparalleled documentation experience that seamlessly integrates into the AdminBSB interface, providing users with a comprehensive knowledge repository.
-	<br /><br />
-	Delve into the intricate details of AdminBSB's versatile components, responsive design, and Bootstrap foundation. Navigate through extensive guides that unravel the intricacies of customization, ensuring that every feature is wielded effectively. From quick tutorials for beginners to advanced tips for seasoned developers, the AdminBSB Documentation caters to all skill levels.
-	<br /><br />
-	Stay ahead of the curve with real-world examples, best practices, and troubleshooting guides, ensuring a smooth and productive development process. Whether you're crafting a sleek dashboard, implementing data tables, or refining the user experience, this extension equips you with the insights needed to master AdminBSB's capabilities.
-	<br /><br />
-	Empower your team with a shared knowledge base, fostering collaboration and accelerating project timelines. The AdminBSB Documentation isn't just a tool; it's a gateway to unlocking the full potential of AdminBSB, making your CMS experience more intuitive, efficient, and rewarding. Elevate your development journey today with the ultimate documentation companion.<br /><br />
-	<a href='https://github.com/gurayyarar/AdminBSBMaterialDesign' rel='noopener' target='_blank'>Visit the Projects Github Page!</a>";
+	$x["lang"] 			= array("en");
+	$x["description"] 	= $x["short"];
